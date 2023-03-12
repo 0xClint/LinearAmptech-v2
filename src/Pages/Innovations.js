@@ -835,11 +835,21 @@ const Innovations = () => {
           <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[20%]" />
         </div>
         <div className="text-[1.8rem] font-bold mt-5">Diagrams</div>
-        <div className="imgContainer flex justify-center items-center gap-24">
+        <div className="imgContainer flex flex-col justify-center items-center gap-24">
           <img
             src={require("../assets/InnovationE.png")}
             className="w-[800px]"
           ></img>
+          <div className="flex gap-16">
+            <img
+              src={require("../assets/loraWAN1.jpg")}
+              className="w-[630px] border rounded-3xl border-[#c0c0c0]"
+            ></img>
+            <img
+              src={require("../assets/loraWAN2.jpg")}
+              className="w-[630px] border rounded-3xl border-[#c0c0c0]"
+            ></img>
+          </div>
         </div>
         <div className="text-[1.8rem] font-bold mt-16 mb-12">
           Frequency Hopping

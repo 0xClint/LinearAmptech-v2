@@ -46,15 +46,13 @@ const Home = () => {
 
       {/* *********************Intro Section****************************** */}
 
-      <div className="introSection gap-16  flex justify-center items-end px-[10%] h-[100vh] pb-16">
-        <div className="flex justify-center items-center">
-          <div className="flex flex-col gap-10">
-            <h2 className="text-[2.5rem] font-bold">
-              We're Delivering Only
-              <br /> Exceptinal Quality Work
-            </h2>
-            <Element3 className="h-[400px] w-[400px]" />
-          </div>
+      <div className="introSection gap-16  flex justify-center items-end px-[10%] h-[100%] p-16">
+        <div className="flex flex-col justify-center items-center">
+          <h2 className="text-[2rem] font-bold">
+            We're Delivering Only
+            <br /> Exceptinal Quality Work
+          </h2>
+          <Element3 className="h-[400px] w-[400px]" />
         </div>
         <div className=" w-[40%] mb-20">
           <p className=" text-[1.1rem] font-medium leading-loose mb-2 ">
@@ -93,7 +91,7 @@ const Home = () => {
           <h2 className="text-[2.5rem] font-bold">Cloud Project</h2>
           <p className=" text-[1.1rem] leading-loose h-[200px]">
             We focus on the use of IOT data to provide companies with real-time
-            observability to increase efiiciency, reduce costs predict possible
+            observability to increase efficiency, reduce costs predict, possible
             faults and analyse the root of faults.
           </p>
           <NavLink
