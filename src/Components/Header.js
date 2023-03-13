@@ -104,8 +104,8 @@ const Header = () => {
               >
                 Products
                 {isDropDownOpen && (
-                  <div className="container ease-in duration-1000 border flex flex-wrap gap-10 text-[#929292] absolute w-[1350px] h-[600px] -translate-x-[67%] translate-y-9 bg-white list-none shadow-xl rounded-xl px-10 py-12">
-                    <div className="w-[20%] flex flex-col gap-6">
+                  <div className="container ease-in duration-1000 border flex flex-wrap gap-10 text-[#929292] absolute w-[1350px] h-[530px] -translate-x-[67%] translate-y-9 bg-white list-none shadow-xl rounded-xl px-10 py-8">
+                    <div className="w-[20%] flex flex-col gap-4">
                       <h2 className="text-[1.2rem] font-bold text-[#0346B5]">
                         Linear Amptech
                       </h2>
@@ -123,7 +123,7 @@ const Header = () => {
                           and Signal Processing
                         </h2>
                       </NavLink>
-                      <ul className="flex flex-col gap-5">
+                      <ul className="flex flex-col gap-4">
                         <NavLink to="/products/rf-design-and-signal-processing">
                           <li className="flex gap-4 justify-start items-center text-[0.95rem]">
                             <div className="w-8  h-8 flex justify-center items-center text-[#0208A4] bg-[#04DBF8] rounded-md">
