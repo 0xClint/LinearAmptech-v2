@@ -88,7 +88,7 @@ const Home = () => {
           <p className="tag text-[#0346B5] text-[1.1rem] font-semibold">
             INNOVATIONS
           </p>
-          <h2 className="text-[2.5rem] font-bold">Cloud Project</h2>
+          <h2 className="text-[2.5rem] font-bold">Falcon Cloud Project</h2>
           <p className=" text-[1.1rem] leading-loose h-[200px]">
             We focus on the use of IOT data to provide companies with real-time
             observability to increase efficiency, reduce costs predict, possible

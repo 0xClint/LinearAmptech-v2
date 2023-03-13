@@ -771,6 +771,62 @@ const Innovations = () => {
           </div>
         </section>
       </div>
+
+      <div className="mx-[12%] my-20">
+        <h2 className="text-[2.5rem] font-bold mt-10">Falcon Cloud Project</h2>
+        <div className="flex justify-between">
+          <div className="w-[50%]">
+            <h2 className="text-[1.8rem] font-bold mt-5">How it works ?</h2>
+            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+              <li>
+                Linear Amptech's Cloud Analytics solution is designed to monitor
+                sensors and generate valuable insights from them.
+              </li>
+              <li>
+                The process begins with data ingestion, where data from various
+                sensors is collected in real-time and transmitted to our
+                cloud-based platform for analysis.
+              </li>
+              <li>
+                Using advanced algorithms and machine learning techniques, we
+                process the data and identify patterns and anomalies.
+              </li>
+              <li>
+                A comprehensive analysis report is generated and shown in a user
+                friendly dashboard
+              </li>
+              <li>
+                This enables businesses to make informed decisions and take
+                action based on real-time data, improving their operational
+                efficiency and reducing downtime.
+              </li>
+            </ul>
+            <h2 className="text-[1.8rem] font-bold mt-5">Benefits</h2>
+            <ul className="list-disc my-3 ml-8 flex flex-col gap-1">
+              <li>
+                Reduction of cost for an organisation due to process
+                optimization
+              </li>
+              <li>No code solutions</li>
+              <li>
+                Reduction in time and cost to develop and deploy the IIoT app
+              </li>
+              <li>
+                Access to advanced techniques to detect issues before
+                the actual building
+              </li>
+            </ul>
+          </div>
+          <div className="rightBox w-[50%] flex p-5">
+            <img
+              src={require("../assets/AI&ML/2.png")}
+              className="w-[100%]"
+            ></img>
+          </div>
+        </div>
+        <h2 className="text-[1.8rem] font-bold mt-5">Diagram</h2>
+        <img src={require("../assets/falcon1.png")} className="my-[1rem]"></img>
+      </div>
       {/* new two big images */}
       <div className="lg:pr-44 lg:pl-44 mt-10">
         <h1 className="text-[40px] font-bold text-black capitalize mb-4 ml-5  ">
