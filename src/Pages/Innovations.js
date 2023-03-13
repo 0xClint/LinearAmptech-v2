@@ -771,6 +771,13 @@ const Innovations = () => {
           </div>
         </section>
       </div>
+      <div
+        className="absolute w-[100vw] overflow-hidden h-[200px]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <BgElement1 className="w-[200px] absolute origin-center -right-20 -translate-y-[20%]" />
+      </div>
 
       <div className="mx-[12%] my-20">
         <h2 className="text-[2.5rem] font-bold mt-10">Falcon Cloud Project</h2>
