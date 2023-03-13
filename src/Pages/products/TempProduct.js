@@ -242,7 +242,8 @@ const TempProduct = () => {
           </div>
         </div>
       </div>
-      <CompanyFocus /> <Footer />
+      <CompanyFocus />
+      <Footer />
     </div>
   );
 };

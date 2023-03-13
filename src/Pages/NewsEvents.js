@@ -167,7 +167,7 @@ const NewsEvents = () => {
           style={{ backgroundImage: `url(${newsbg})` }}
         >
           <div className=" ">
-            <p className="font-bold text-[64px] text-white text-center">
+            <p className="font-bold lg:text-[64px] text-4xl lg:mb-4 text-white text-center">
               News and Events
             </p>
             <p className="text-[24px] text-white font-medium text-center">
@@ -175,16 +175,16 @@ const NewsEvents = () => {
             </p>
           </div>
         </div>
-        <section className="bg-white dark:bg-gray-900">
-          <div className="container flex flex-wrap px-6 py-10 mx-auto justify-center">
+        <section className="bg-white dark:bg-gray-900 mt-6">
+          <div className="container lg:flex flex-wrap  mx-auto justify-center gap-2">
             {data
               ? data.map(({ title, date, photo }) => {
                   return (
-                    <div className="flex">
-                      <div className="lg:flex border mx-2 my-4 w-[594px]">
-                        <div className="flex flex-col justify-between py-6 lg:mx-6">
+                    <div className="flex justify-start">
+                      <div className="lg:flex border mx-2 lg:my-2 my-2  w-[594px]">
+                        <div className="flex flex-col justify-between py-6 mx-6">
                           <img src={photo} className="max-h-80 w-[100%]" />
-                          <p className="text-xl font-semibold text-black mt-2   ">
+                          <p className="lg:text-xl lg:font-regular text-md text-black  mt-2   ">
                             {title ? title : "Title"}
                           </p>
 

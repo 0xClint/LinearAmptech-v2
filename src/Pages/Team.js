@@ -21,10 +21,10 @@ const Team = () => {
         }}
       >
         <div className=" ">
-          <p className="font-bold text-[64px] text-white text-center">
+          <p className="font-bold lg:text-[64px] text-4xl text-white text-center">
             Meet Our Team
           </p>
-          <p className="text-[24px] text-white font-medium text-center">
+          <p className="text-[24px] lg:mt-6 text-white font-medium text-center">
             Solutions for a smarter, more connected future
           </p>
         </div>
@@ -32,7 +32,7 @@ const Team = () => {
       <div>
         <section className="bg-white ">
           <div className="container px-6 py-10 mx-auto">
-            <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+            <h1 className="lg:text-[40px] text-4xl font-semibold text-center text-black capitalize ">
               Board Of Directors
             </h1>
 
@@ -60,7 +60,7 @@ const Team = () => {
         <div>
           <section className="bg-white ">
             <div className="container px-6 py-10 mx-auto">
-              <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+              <h1 className="lg:text-[40px] text-4xl font-semibold text-center text-black capitalize ">
                 Core Team
               </h1>
               <p className="max-w-6xl text-[20px] mx-auto my-6 text-center text-black ">
@@ -83,11 +83,11 @@ const Team = () => {
         </div>
       </div>
       {/* Software team */}
-      <div className="mt-4">
+      <div className="mt-8">
         <div>
           <section className="bg-white ">
             <div className="container px-6 py-2 mx-auto">
-              <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+              <h1 className="lg:text-[40px] text-4xl mb-4 font-semibold text-center text-black capitalize ">
                 Software Team
               </h1>
 
@@ -101,11 +101,11 @@ const Team = () => {
         </div>
       </div>
       {/* hardware team */}
-      <div className="mt-6 mb-6">
+      <div className="mt-8 mb-8">
         <div>
           <section className="bg-white ">
-            <div className="container px-6 py-2 mx-auto">
-              <h1 className="text-[40px] font-semibold text-center text-black capitalize ">
+            <div className="container px-6 py-2  mx-auto">
+              <h1 className="lg:text-[40px] text-4xl mb-4 font-semibold text-center text-black capitalize ">
                 Hardware Team
               </h1>
 

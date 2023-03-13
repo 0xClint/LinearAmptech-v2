@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container px-6 py-12 mx-auto">
           {/* <hr className="my-6 border-gray-200 md:my-10 dark:border-gray-700" /> */}
 
-          <div className="flex  justify-between">
+          <div className="flex  justify-between gap-4">
             <div>
               <p className="font-semibold text-gray-100 dark:text-white">
                 Quick Link
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
 
             <div className="">
-              <p className="font-semibold text-gray-100 ml-1 dark:text-white">
+              <p className="font-semibold text-gray-100  dark:text-white">
                 Contact Us
               </p>
 

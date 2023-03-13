@@ -2,7 +2,7 @@ import React from "react";
 
 const CompanyFocus = () => {
   return (
-    <div className="text-white text-[1.2rem] leading-normal">
+    <div className="text-white text-[1.2rem] leading-normal h-[100%]">
       <div className="absolute py-10 px-[12%] ">
         <h2
           className="text-[3rem] font-bold text-center mb-10"
@@ -26,7 +26,7 @@ const CompanyFocus = () => {
           envisages the requirement for the specialized technology areas such as
           Radio-frequency design and hence is committed to the development of
           radios and related components to address the immediate needs of
-          country’s self-reliance drive.
+          countrys self-reliance drive.
           <br />
           <br /> The vision is to foster R&D into product design and development
           competing with cutting-edge technologies for the national and

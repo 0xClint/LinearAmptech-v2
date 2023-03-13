@@ -172,7 +172,6 @@ const CyberSystem = () => {
           <BgElement3 className="w-[300px] absolute origin-center -right-36 -translate-y-[50%]" />
         </div>
       </div>
-      <CompanyFocus />
       <Footer />
     </div>
   );
